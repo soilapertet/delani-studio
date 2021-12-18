@@ -22,4 +22,14 @@
   padding-top: 195px;
   padding-bottom: 50px;
   cursor: pointer;
+  animation: bounce 0.75s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce 
+{
+  /* Mark a starting and ending point for the animation */
+  /* Translate along the y-axis to create a bouncing effect */
+  from {transform: translate3d(0,0,0);}
+  to{transform: translate3d(0,25px,0);} 
 }
