@@ -1,0 +1,25 @@
+*
+{
+  font-family: "Sriracha";
+}
+#welcome-message
+{
+  background-image: url(../img/h_img.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+#logo
+{
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+#mouse
+{
+  padding-top: 195px;
+  padding-bottom: 50px;
+  cursor: pointer;
+}
