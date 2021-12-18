@@ -39,3 +39,11 @@
   padding: 30px;
   font-size: 20px;
 }
+#services
+{
+  background-image: url(../img/s_image.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
