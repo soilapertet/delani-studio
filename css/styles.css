@@ -50,16 +50,27 @@
   text-align: center;
   padding: 125px;
 }
-#what-we-do
-{
-  text-align:center;
-  padding: 40px;
-}
 .clickable
 {
   cursor:pointer;
 }
-.content-showing
+.design, .development,.product-management
+{
+  padding-top:20px;
+}
+.decrease-font
+{
+  font-size:30px;
+  padding:15px;
+}
+#what-we-do
+{
+  text-align:center;
+  padding:20px;
+  font-size:18px;
+}
+.content-hidden
 {
   display:none;
 }
+
