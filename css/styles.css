@@ -73,4 +73,9 @@
 {
   display:none;
 }
+/* Prevent the images from overlapping by constraining their width */
+.col-md-3 img
+{
+  max-width:100%; 
+}
 
