@@ -73,9 +73,15 @@
 {
   display:none;
 }
+.col-md-3
+{
+  padding-bottom:10px;
+}
 /* Prevent the images from overlapping by constraining their width */
 .col-md-3 img
 {
   max-width:100%; 
 }
+
+
 
