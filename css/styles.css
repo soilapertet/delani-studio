@@ -116,8 +116,19 @@
 #contact-info
 {
   position: absolute;
-  top: 30%;
-  left: 30%;  
+  top: 40%;
+  left: 25%;  
+}
+input
+{
+  background-color:transparent;
+}
+#message 
+{
+  height:200px;
+  margin-top:5px;
+  padding:1px;
+  float:left;
 }
 
 
