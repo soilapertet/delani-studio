@@ -113,11 +113,22 @@
 {
   max-width:100%;
 }
+#contact h1 
+{
+  position: absolute;
+  top:15%;
+  left:45%;
+  color:white; 
+}
 #contact-info
 {
   position: absolute;
-  top: 40%;
-  left: 25%;  
+  top: 30%;
+  left: 25%; 
+}
+::placeholder
+{
+  color:white;
 }
 input
 {
@@ -125,8 +136,8 @@ input
 }
 #message 
 {
-  height:200px;
-  margin-top:5px;
+  height:250px;
+  margin-top:10px;
   padding:1px;
   float:left;
 }
