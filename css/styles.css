@@ -184,6 +184,79 @@ input
 {
   border-color: #a2a6ac #979aa1 #82858a;
 }
+.fa 
+{
+  padding: 20px;
+  font-size: 35px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+}
+.fa:hover
+{
+  opacity:0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+#social-media
+{
+  margin-top: 20px;
+  display: flex;
+  /* 'align-items' determines the vertical alignment of the container's contents */
+  align-items: center;
+  /* determines the horizontal alignment */
+  justify-content: center;
+}
+#copyright p
+{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
   
   
 
