@@ -1,9 +1,3 @@
-
-// var tasks = ["design", "development", "product-management"];
-// var descriptions = ["design-info", "development-info", "product-info"];
-// var overlays = ["overlay1", "overlay2","overlay3","overlay4","overlay5","overlay6","overlay7","overlay8"];
-// var projects = ["project1", "project2","project3","project4","project5","project6","project7","project8"];
-
 $(document).ready(function(){
   $("#design").click(function(){
     $("#design").slideToggle();
@@ -53,5 +47,26 @@ $(document).ready(function(){
   $("#overlay8").hover(function(){
     $("#project8").toggle();
   });
+
+  $("form#contact-info").submit(function() {
+    let username = $("input#name").val();
+    let email = $("input#email").val();
+    let message = $("input#message").val();
+    
+      if(username === ""){
+        alert("Please enter your name in the respective field.");
+      }
+      else if (email === "") {
+        alert("Please enter your email address in the respective field.");
+      }
+      else if (message === "") {
+        alert("Please type your feedback/inquiry in the respective field.");
+      } 
+      else {
+        alert("Thank you "+username+" for reaching out to us! We will get back to you as soon as possible.");
+      }
+    
+      event.preventDefault();
+  })
 });
  
