@@ -49,6 +49,7 @@ $(document).ready(function(){
   });
 
   $("form#contact-info").submit(function() {
+    
     let username = $("input#name").val();
     let email = $("input#email").val();
     let message = $("input#message").val();
@@ -65,8 +66,7 @@ $(document).ready(function(){
       else {
         alert("Thank you "+username+" for reaching out to us! We will get back to you as soon as possible.");
       }
-    
       event.preventDefault();
-  })
+  });
 });
  
