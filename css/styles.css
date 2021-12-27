@@ -262,7 +262,54 @@ input
   text-align: center;
   margin-top: 20px;
   font-size: 20px;
+<<<<<<< HEAD
 } 
+=======
+}
+@media only screen and (max-width:767px) 
+{
+  #portfolio
+  {
+    width: 100%;
+    padding: 80px;
+  }
+  #name,#email,#message
+  {
+    width:100%;
+  }
+  form
+  {
+    padding-right: 60px;
+  }
+  .fa
+  {
+    padding: 10px;
+    font-size: 20px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
+  }
+}
+@media only screen and (min-width:767px) 
+{
+  #portfolio
+  {
+    max-width: 100%;
+    padding: 50px;
+  }
+  #name,#email,#message
+  {
+    width:100%;
+  }
+  form
+  {
+    padding-right: 60px;
+  }
+}
+  
+>>>>>>> a7b2a76c48682e1f6d5cefb4298da7bf05097904
   
 
 
