@@ -48,11 +48,10 @@ $(document).ready(function(){
     $("#project8").toggle();
   });
 
-  $("form#contact-info").submit(function() {
-    
-    let username = $("input#name").val();
-    let email = $("input#email").val();
-    let message = $("input#message").val();
+  $("#contact-info").submit(function() {
+    var username = $("input#name").val();
+    var email = $("input#email").val();
+    var message = $("input#message").val();
     
       if(username === ""){
         alert("Please enter your name in the respective field.");
@@ -66,7 +65,8 @@ $(document).ready(function(){
       else {
         alert("Thank you "+username+" for reaching out to us! We will get back to you as soon as possible.");
       }
-      event.preventDefault();
+
+    event.preventDefault();
   });
 });
  
