@@ -1,6 +1,6 @@
 *
 {
-  font-family: "Sriracha";
+  font-family: "Itim";
 }
 #welcome-message
 {
@@ -108,22 +108,24 @@
 #contact
 {
   position:relative;
-}
-#contact img 
-{
-  max-width:100%;
+  background-image: url(../img/c_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
+  max-width: 100%;
 }
 #contact h1 
 {
   position: absolute;
-  top:15%;
-  left:45%;
+  top:10%;
+  left:47%;
   color:white; 
 }
 #contact-info
 {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 25%; 
 }
 ::placeholder
@@ -135,11 +137,15 @@ input
   background-color:transparent;
   color:white;
 }
+#name
+{
+  margin-right: 20px;
+}
 #message 
 {
   height:250px;
   margin-top:10px;
-  padding:1px;
+  padding:5px;
   float:left;
 }
 .button 
